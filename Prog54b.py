@@ -6,4 +6,4 @@ sum = Number1 + Number2 + Number3 + Number4
 average = sum / 4
 print("The Sum of the 4 numbers are: " + str(sum))
 print("The Average of the 4 numbers is: " + str(average))
-#dfdfadfsa
+#python filename.py in shell to run code
