@@ -1,0 +1,12 @@
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\HELLOWORLD\HELLOWORLD\bin\Debug\HELLOWORLD.exe.config
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\HELLOWORLD\HELLOWORLD\bin\Debug\HELLOWORLD.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\HELLOWORLD\HELLOWORLD\bin\Debug\HELLOWORLD.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\HELLOWORLD\HELLOWORLD\bin\Debug\IronPython.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\HELLOWORLD\HELLOWORLD\bin\Debug\IronPython.Modules.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\HELLOWORLD\HELLOWORLD\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\HELLOWORLD\HELLOWORLD\bin\Debug\Microsoft.Scripting.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\HELLOWORLD\HELLOWORLD\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\HELLOWORLD\HELLOWORLD\obj\Debug\HELLOWORLD.pyprojResolveAssemblyReference.cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\HELLOWORLD\HELLOWORLD\obj\Debug\HELLOWORLD.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\HELLOWORLD\HELLOWORLD\obj\Debug\HELLOWORLD.MainForm.resources
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\HELLOWORLD\HELLOWORLD\obj\Debug\HELLOWORLD.pyproj.GenerateResource.Cache

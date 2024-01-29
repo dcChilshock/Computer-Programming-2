@@ -1,0 +1,12 @@
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\FavoriteGame\bin\Debug\FavoriteGame.exe.config
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\FavoriteGame\bin\Debug\FavoriteGame.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\FavoriteGame\bin\Debug\FavoriteGame.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\FavoriteGame\bin\Debug\IronPython.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\FavoriteGame\bin\Debug\IronPython.Modules.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\FavoriteGame\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\FavoriteGame\bin\Debug\Microsoft.Scripting.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\FavoriteGame\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\FavoriteGame\obj\Debug\FavoriteGame.pyprojResolveAssemblyReference.cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\FavoriteGame\obj\Debug\FavoriteGame.MainForm.resources
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\FavoriteGame\obj\Debug\FavoriteGame.pyproj.GenerateResource.Cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\FavoriteGame\obj\Debug\FavoriteGame.exe
