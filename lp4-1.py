@@ -15,6 +15,7 @@ elif copies > 1000:
   price = 0.25
 else:
   print("The Number of Copies is invalid, either a decimal or negative number.")
+  
 print("Price per copy is: $ " + str(price))
 cost = price * copies 
 print("The total cost is: " + str(cost)) 
