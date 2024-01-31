@@ -2,7 +2,7 @@ eggs = int(input("Enter number of eggs: "))
 dozens = eggs // 12 
 remainder = eggs % 12
 price = 0
-priceR = price * (price / 12)
+
 
 if 0 < dozens < 4:
   price = 0.50
@@ -14,11 +14,9 @@ elif dozens >= 12:
   price = 0.35
 else:
   print("number of eggs is invalid:")
-
-costegg = price * dozens
-costR = priceR * remainder
-
 print("Number of eggs purchased: " + str(eggs))
+costegg = price * dozens
+priceR = (price / 12)
+costR = priceR * remainder
 totalcost = costegg + costR
 print("The total cost of eggs purchased: " + str(totalcost))
-  
