@@ -17,7 +17,8 @@ else:
 
 costegg = price * dozens
 costR = priceR * remainder
-totalcost = costegg + costR
+
 print("Number of eggs purchased: " + str(eggs))
+totalcost = costegg + costR
 print("The total cost of eggs purchased: " + str(totalcost))
   
