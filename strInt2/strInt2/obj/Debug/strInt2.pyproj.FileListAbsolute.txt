@@ -1,0 +1,12 @@
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\strInt2\strInt2\obj\Debug\strInt2.pyprojResolveAssemblyReference.cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\strInt2\strInt2\obj\Debug\strInt2.MainForm.resources
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\strInt2\strInt2\obj\Debug\strInt2.pyproj.GenerateResource.Cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\strInt2\strInt2\bin\Debug\strInt2.exe.config
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\strInt2\strInt2\bin\Debug\strInt2.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\strInt2\strInt2\bin\Debug\strInt2.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\strInt2\strInt2\bin\Debug\IronPython.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\strInt2\strInt2\bin\Debug\IronPython.Modules.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\strInt2\strInt2\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\strInt2\strInt2\bin\Debug\Microsoft.Scripting.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\strInt2\strInt2\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\strInt2\strInt2\obj\Debug\strInt2.exe
