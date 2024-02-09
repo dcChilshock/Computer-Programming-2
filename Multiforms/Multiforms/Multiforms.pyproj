@@ -68,6 +68,9 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="electricboogalo2.resx">
+      <DependentUpon>electricboogalo2.py</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.py</DependentUpon>
     </EmbeddedResource>

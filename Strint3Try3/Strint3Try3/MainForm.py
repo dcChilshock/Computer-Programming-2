@@ -99,16 +99,18 @@ class MainForm(Form):
 		
 		string = self._textBox1.Text 
 		string = string.lower()
-		lcv2 = 0
-		letter1 = string[lcv2]
+		lcv
+		lcv3 = 0
+		lcv2 = 1
+		letter1 = string[lcv2:]
 		
-		for lcv in range(len(string)):
-			letter2 = string[lcv]
-			while lcv == range(len(string)):
+		for lcv3 in range(len(string)):
+			letter2 = string[lcv2:lcv2+1]
+			if letter1 == letter2:
+				lcv2 += 1
 				lcv += 1
-				if letter1 == letter2:
-					lcv2 += 1
-					lcv == 0
-				else:
-					lcv += 1
+				lcv3 += 1
+						
+			else:
+				lcv3 += 1
 		self._label3.Text = "No non-repeated letters"

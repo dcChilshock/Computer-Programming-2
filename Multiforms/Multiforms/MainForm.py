@@ -37,3 +37,7 @@ class MainForm(Form):
 		form1.Show()
 		self.Hide()
 		
+		# from electricboogalo2 import*
+		# form2 = SecondForm()
+		# form2.Show()
+		#self.Hide
