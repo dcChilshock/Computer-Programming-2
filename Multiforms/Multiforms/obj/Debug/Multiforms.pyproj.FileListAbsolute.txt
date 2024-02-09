@@ -1,0 +1,13 @@
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\bin\Debug\Multiforms.exe.config
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\bin\Debug\Multiforms.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\bin\Debug\Multiforms.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\bin\Debug\IronPython.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\bin\Debug\IronPython.Modules.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\bin\Debug\Microsoft.Scripting.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\obj\Debug\Multiforms.pyprojResolveAssemblyReference.cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\obj\Debug\Multiforms.Form1.resources
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\obj\Debug\Multiforms.MainForm.resources
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\obj\Debug\Multiforms.pyproj.GenerateResource.Cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Multiforms\Multiforms\obj\Debug\Multiforms.exe
