@@ -99,18 +99,17 @@ class MainForm(Form):
 		
 		string = self._textBox1.Text 
 		string = string.lower()
-		lcv
-		lcv3 = 0
+		lcv = 0
 		lcv2 = 1
-		letter1 = string[lcv2:]
-		
-		for lcv3 in range(len(string)):
-			letter2 = string[lcv2:lcv2+1]
-			if letter1 == letter2:
-				lcv2 += 1
-				lcv += 1
-				lcv3 += 1
-						
+		letter1 = string[lcv:]
+		count = 0
+		while len(string) <= lcv3:
+			letter2 = string[lcv2:lcv2+1] #so selects 'o' out of morning then 'r' and so on
+			if letter1 == letter2: #if current letter == second letter move on to the next letters 
+				lcv2 += 2
+				lcv += 2
+				count +=1
 			else:
-				lcv3 += 1
-		self._label3.Text = "No non-repeated letters"
+				lcv == 0
+		if count == 
+		self._label3.Text = "This letter: " + letter1
