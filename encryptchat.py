@@ -53,9 +53,10 @@
 #   send_thread = threading.Thread(target=sendMsg, args =(client,)).start()
 #   recv_thread = threading.Thread(target=recvMsg, args = (client,)).start()
 # except: pass
+
 import threading
 import socket
-import rsa  # pip install rsa
+import rsa  #pip install rsa
 
 public_key, private_key = rsa.newkeys(1024)  # 1024 bits
 DEFAULT_IP_PORT = ("127.0.0.1", 9999)
