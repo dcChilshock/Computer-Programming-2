@@ -1,0 +1,14 @@
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\bin\Debug\pg435ticketsalespython.exe.config
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\bin\Debug\pg435ticketsalespython.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\bin\Debug\pg435ticketsalespython.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\bin\Debug\IronPython.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\bin\Debug\IronPython.Modules.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\bin\Debug\Microsoft.Scripting.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\obj\Debug\pg435ticketsalespython.pyprojResolveAssemblyReference.cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\obj\Debug\pg435ticketsalespython.MainForm.resources
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\obj\Debug\pg435ticketsalespython.pyproj.GenerateResource.Cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\obj\Debug\pg435ticketsalespython.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\obj\Debug\pg435ticketsalespython.FormStudent.resources
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\pg435ticketsalespython\pg435ticketsalespython\obj\Debug\pg435ticketsalespython.FormGeneral.resources
