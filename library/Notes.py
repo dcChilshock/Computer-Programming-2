@@ -29,7 +29,9 @@ bool - boolean (either True or false only)
 %=
 **=
 """
-
+#Classes: NOTES 
+#DATE: FEB 19th 
+#TIME: 2:18 PM 
 "a class is a thing with a variable and(or methods
 "shape of 52a has shape: length, width
 "point class has x, y in it
@@ -40,3 +42,4 @@ bool - boolean (either True or false only)
 " getarea() to get area and perimeter 
 "getperim() 
 " solutions in sharp develop is basically a gaint class like buttonclick1 buttonclick2, label1, label2, button and on and on 
+#GO TO prog52aClass.py for examples and direct experience with how classes work 
