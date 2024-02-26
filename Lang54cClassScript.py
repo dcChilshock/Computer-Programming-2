@@ -2,23 +2,25 @@ class Prog54c:
   def __init__(self, pi, radius):
     self.pi = pi
     self.radius = radius
+    self.area = 0
+    self.cir = 0
     self.end = 0
 
   def getarea(self):
-    return pi * (radius ** 2)
+    return self.pi * (self.radius ** 2)
     
   def getcircum(self):
-    return 2 * pi * radius
+    return 2 * self.pi * self.radius
 
   def calc(self):
-    cir = getcircum(self)
-    area  = getarea(self)
+    self.cir = self.getcircum()
+    self.area  = self.getarea()
 
   def display(self):
     print("The outcomes are.")
-    print("Radius: " + radius)
-    print(f"Area: " + area)
-    print(f"Circumfrence: " + cir)
+    print("Radius: " + self.radius)
+    print(f"Area: " + self.area)
+    print(f"Circumfrence: " + self.cir)
     
     
   
