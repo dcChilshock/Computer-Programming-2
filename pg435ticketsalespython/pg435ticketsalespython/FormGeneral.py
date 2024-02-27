@@ -20,9 +20,9 @@ class FormGeneral(Form):
 		self._label3 = System.Windows.Forms.Label()
 		self._label4 = System.Windows.Forms.Label()
 		self._label5 = System.Windows.Forms.Label()
-		self._label6 = System.Windows.Forms.Label()
 		self._button1 = System.Windows.Forms.Button()
 		self._button2 = System.Windows.Forms.Button()
+		self._label6 = System.Windows.Forms.Label()
 		self.SuspendLayout()
 		# 
 		# label1
@@ -37,7 +37,7 @@ class FormGeneral(Form):
 		# 
 		self._textBox1.Location = System.Drawing.Point(120, 13)
 		self._textBox1.Name = "textBox1"
-		self._textBox1.Size = System.Drawing.Size(100, 20)
+		self._textBox1.Size = System.Drawing.Size(154, 20)
 		self._textBox1.TabIndex = 1
 		# 
 		# radioButton1
@@ -80,7 +80,7 @@ class FormGeneral(Form):
 		# 
 		# label3
 		# 
-		self._label3.Location = System.Drawing.Point(12, 158)
+		self._label3.Location = System.Drawing.Point(149, 73)
 		self._label3.Name = "label3"
 		self._label3.Size = System.Drawing.Size(100, 23)
 		self._label3.TabIndex = 6
@@ -88,7 +88,7 @@ class FormGeneral(Form):
 		# 
 		# label4
 		# 
-		self._label4.Location = System.Drawing.Point(12, 185)
+		self._label4.Location = System.Drawing.Point(149, 98)
 		self._label4.Name = "label4"
 		self._label4.Size = System.Drawing.Size(100, 23)
 		self._label4.TabIndex = 7
@@ -96,44 +96,47 @@ class FormGeneral(Form):
 		# 
 		# label5
 		# 
-		self._label5.Location = System.Drawing.Point(13, 212)
+		self._label5.Location = System.Drawing.Point(149, 127)
 		self._label5.Name = "label5"
 		self._label5.Size = System.Drawing.Size(100, 23)
 		self._label5.TabIndex = 8
 		self._label5.Text = "Tax:"
-		# 
-		# label6
-		# 
-		self._label6.Location = System.Drawing.Point(12, 239)
-		self._label6.Name = "label6"
-		self._label6.Size = System.Drawing.Size(100, 23)
-		self._label6.TabIndex = 9
-		self._label6.Text = "Total:"
+		self._label5.Click += self.Label5Click
 		# 
 		# button1
 		# 
-		self._button1.Location = System.Drawing.Point(226, 11)
+		self._button1.Location = System.Drawing.Point(176, 39)
 		self._button1.Name = "button1"
 		self._button1.Size = System.Drawing.Size(75, 23)
 		self._button1.TabIndex = 10
 		self._button1.Text = "Calculate"
 		self._button1.UseVisualStyleBackColor = True
+		self._button1.Click += self.Button1Click
 		# 
 		# button2
 		# 
-		self._button2.Location = System.Drawing.Point(226, 40)
+		self._button2.Location = System.Drawing.Point(95, 39)
 		self._button2.Name = "button2"
 		self._button2.Size = System.Drawing.Size(75, 23)
 		self._button2.TabIndex = 11
 		self._button2.Text = "Close"
 		self._button2.UseVisualStyleBackColor = True
+		self._button2.Click += self.Button2Click
+		# 
+		# label6
+		# 
+		self._label6.Location = System.Drawing.Point(13, 155)
+		self._label6.Name = "label6"
+		self._label6.Size = System.Drawing.Size(260, 102)
+		self._label6.TabIndex = 12
+		self._label6.Text = "label6"
 		# 
 		# FormGeneral
 		# 
-		self.ClientSize = System.Drawing.Size(308, 267)
+		self.ClientSize = System.Drawing.Size(286, 267)
+		self.Controls.Add(self._label6)
 		self.Controls.Add(self._button2)
 		self.Controls.Add(self._button1)
-		self.Controls.Add(self._label6)
 		self.Controls.Add(self._label5)
 		self.Controls.Add(self._label4)
 		self.Controls.Add(self._label3)
@@ -149,3 +152,31 @@ class FormGeneral(Form):
 		self.PerformLayout()
 
 
+
+	def Button1Click(self, sender, e):
+		Tick = int(self._textBox1.Text) 
+		Tax = 0.06
+		Total = 0
+		Section = 100
+		Taxt = 0
+		TickC = 0
+		if self._radioButton1.Checked:
+			Section = 20
+		elif self._radioButton2.Checked:
+			Section = 15
+		elif self._radioButton3.Checked:
+			Section = 10
+		Tax = 0.06
+		TickC = Tick * Section
+		TaxT = Tax * TickC
+		
+		self._label4.Text = "$" + str(TickC)
+		self._label5.Text = "$" + str(TaxT)
+		Total = Taxt + TickC
+		self._label3.Text = "$" + str(Total)
+
+	def Button2Click(self, sender, e):
+		Application.Exit()
+
+	def Label5Click(self, sender, e):
+		pass
