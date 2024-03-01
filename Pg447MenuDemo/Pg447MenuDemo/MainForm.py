@@ -75,6 +75,7 @@ class MainForm(Form):
 		self._AboutMenu.Name = "AboutMenu"
 		self._AboutMenu.Size = System.Drawing.Size(152, 22)
 		self._AboutMenu.Text = "About"
+		self._AboutMenu.Click += self.AboutMenuClick
 		# 
 		# RedMenu
 		# 
@@ -171,7 +172,7 @@ class MainForm(Form):
 
 	def HEHEHEHHEHEHToolStripMenuItemClick(self, sender, e):
 		self._label1.ForeColor = Color.Yellow
-		
+		self.BackColor = Color.Gold
 
 	def BlackMenuClick(self, sender, e):
 		self._label1.ForeColor = Color.Black
@@ -180,8 +181,9 @@ class MainForm(Form):
 		self._label1.ForeColor = Color.Blue
 
 	def VisiableToolStripMenuItemClick(self, sender, e):
-		if self._VisiableToolStripMenuItem.Checked == True:
-			self._label1.Visible = True
-		if self._VisiableToolStripMenuItem.Checked == False:
-			self._label1.Visible = False
+		self._label1.Visible = not self._label1.Visible
 		
+		
+
+	def AboutMenuClick(self, sender, e):
+		self._label1.Text = "Menu system demo\n Designed for starting out with windows form applications about menu form."
