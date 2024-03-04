@@ -29,11 +29,13 @@ class MainForm(Form):
 		self._label3 = System.Windows.Forms.Label()
 		self._label4 = System.Windows.Forms.Label()
 		self._label5 = System.Windows.Forms.Label()
+		self._label6 = System.Windows.Forms.Label()
+		self._checkedListBox1 = System.Windows.Forms.CheckedListBox()
 		self.SuspendLayout()
 		# 
 		# radioButton1
 		# 
-		self._radioButton1.Location = System.Drawing.Point(13, 13)
+		self._radioButton1.Location = System.Drawing.Point(12, 70)
 		self._radioButton1.Name = "radioButton1"
 		self._radioButton1.Size = System.Drawing.Size(104, 24)
 		self._radioButton1.TabIndex = 0
@@ -43,7 +45,7 @@ class MainForm(Form):
 		# 
 		# radioButton2
 		# 
-		self._radioButton2.Location = System.Drawing.Point(13, 44)
+		self._radioButton2.Location = System.Drawing.Point(12, 100)
 		self._radioButton2.Name = "radioButton2"
 		self._radioButton2.Size = System.Drawing.Size(104, 24)
 		self._radioButton2.TabIndex = 1
@@ -53,7 +55,7 @@ class MainForm(Form):
 		# 
 		# radioButton3
 		# 
-		self._radioButton3.Location = System.Drawing.Point(13, 75)
+		self._radioButton3.Location = System.Drawing.Point(12, 130)
 		self._radioButton3.Name = "radioButton3"
 		self._radioButton3.Size = System.Drawing.Size(104, 24)
 		self._radioButton3.TabIndex = 2
@@ -63,7 +65,7 @@ class MainForm(Form):
 		# 
 		# radioButton4
 		# 
-		self._radioButton4.Location = System.Drawing.Point(13, 106)
+		self._radioButton4.Location = System.Drawing.Point(105, 70)
 		self._radioButton4.Name = "radioButton4"
 		self._radioButton4.Size = System.Drawing.Size(104, 24)
 		self._radioButton4.TabIndex = 3
@@ -73,7 +75,7 @@ class MainForm(Form):
 		# 
 		# radioButton5
 		# 
-		self._radioButton5.Location = System.Drawing.Point(13, 137)
+		self._radioButton5.Location = System.Drawing.Point(105, 100)
 		self._radioButton5.Name = "radioButton5"
 		self._radioButton5.Size = System.Drawing.Size(104, 24)
 		self._radioButton5.TabIndex = 4
@@ -83,7 +85,7 @@ class MainForm(Form):
 		# 
 		# radioButton6
 		# 
-		self._radioButton6.Location = System.Drawing.Point(13, 168)
+		self._radioButton6.Location = System.Drawing.Point(105, 131)
 		self._radioButton6.Name = "radioButton6"
 		self._radioButton6.Size = System.Drawing.Size(104, 24)
 		self._radioButton6.TabIndex = 5
@@ -93,7 +95,7 @@ class MainForm(Form):
 		# 
 		# radioButton7
 		# 
-		self._radioButton7.Location = System.Drawing.Point(13, 199)
+		self._radioButton7.Location = System.Drawing.Point(105, 162)
 		self._radioButton7.Name = "radioButton7"
 		self._radioButton7.Size = System.Drawing.Size(104, 24)
 		self._radioButton7.TabIndex = 6
@@ -103,7 +105,7 @@ class MainForm(Form):
 		# 
 		# radioButton8
 		# 
-		self._radioButton8.Location = System.Drawing.Point(13, 230)
+		self._radioButton8.Location = System.Drawing.Point(13, 218)
 		self._radioButton8.Name = "radioButton8"
 		self._radioButton8.Size = System.Drawing.Size(104, 24)
 		self._radioButton8.TabIndex = 7
@@ -113,7 +115,7 @@ class MainForm(Form):
 		# 
 		# radioButton9
 		# 
-		self._radioButton9.Location = System.Drawing.Point(13, 261)
+		self._radioButton9.Location = System.Drawing.Point(13, 249)
 		self._radioButton9.Name = "radioButton9"
 		self._radioButton9.Size = System.Drawing.Size(104, 24)
 		self._radioButton9.TabIndex = 8
@@ -123,46 +125,47 @@ class MainForm(Form):
 		# 
 		# radioButton10
 		# 
-		self._radioButton10.Location = System.Drawing.Point(13, 292)
+		self._radioButton10.Location = System.Drawing.Point(8, 279)
 		self._radioButton10.Name = "radioButton10"
 		self._radioButton10.Size = System.Drawing.Size(104, 24)
 		self._radioButton10.TabIndex = 9
 		self._radioButton10.TabStop = True
-		self._radioButton10.Text = "Green"
+		self._radioButton10.Text = "Teal"
 		self._radioButton10.UseVisualStyleBackColor = True
 		# 
 		# radioButton11
 		# 
-		self._radioButton11.Location = System.Drawing.Point(13, 323)
+		self._radioButton11.Location = System.Drawing.Point(8, 309)
 		self._radioButton11.Name = "radioButton11"
 		self._radioButton11.Size = System.Drawing.Size(104, 24)
 		self._radioButton11.TabIndex = 10
 		self._radioButton11.TabStop = True
-		self._radioButton11.Text = "Teal"
+		self._radioButton11.Text = "Red "
 		self._radioButton11.UseVisualStyleBackColor = True
 		# 
 		# radioButton12
 		# 
-		self._radioButton12.Location = System.Drawing.Point(13, 354)
+		self._radioButton12.Location = System.Drawing.Point(8, 339)
 		self._radioButton12.Name = "radioButton12"
 		self._radioButton12.Size = System.Drawing.Size(104, 24)
 		self._radioButton12.TabIndex = 11
 		self._radioButton12.TabStop = True
-		self._radioButton12.Text = "Red"
+		self._radioButton12.Text = "Green"
 		self._radioButton12.UseVisualStyleBackColor = True
 		# 
 		# button1
 		# 
-		self._button1.Location = System.Drawing.Point(396, 13)
+		self._button1.Location = System.Drawing.Point(189, 39)
 		self._button1.Name = "button1"
 		self._button1.Size = System.Drawing.Size(75, 23)
 		self._button1.TabIndex = 12
 		self._button1.Text = "Calculate"
 		self._button1.UseVisualStyleBackColor = True
+		self._button1.Click += self.Button1Click
 		# 
 		# button2
 		# 
-		self._button2.Location = System.Drawing.Point(396, 44)
+		self._button2.Location = System.Drawing.Point(189, 74)
 		self._button2.Name = "button2"
 		self._button2.Size = System.Drawing.Size(75, 23)
 		self._button2.TabIndex = 13
@@ -172,7 +175,7 @@ class MainForm(Form):
 		# 
 		# button3
 		# 
-		self._button3.Location = System.Drawing.Point(396, 74)
+		self._button3.Location = System.Drawing.Point(189, 103)
 		self._button3.Name = "button3"
 		self._button3.Size = System.Drawing.Size(75, 23)
 		self._button3.TabIndex = 14
@@ -182,23 +185,23 @@ class MainForm(Form):
 		# 
 		# label1
 		# 
-		self._label1.Location = System.Drawing.Point(146, 29)
+		self._label1.Location = System.Drawing.Point(13, 44)
 		self._label1.Name = "label1"
-		self._label1.Size = System.Drawing.Size(100, 23)
+		self._label1.Size = System.Drawing.Size(112, 23)
 		self._label1.TabIndex = 15
-		self._label1.Text = "types of shades"
+		self._label1.Text = "Types of shades"
 		# 
 		# label2
 		# 
-		self._label2.Location = System.Drawing.Point(187, 106)
+		self._label2.Location = System.Drawing.Point(105, 44)
 		self._label2.Name = "label2"
-		self._label2.Size = System.Drawing.Size(100, 23)
+		self._label2.Size = System.Drawing.Size(63, 23)
 		self._label2.TabIndex = 16
 		self._label2.Text = "How wide?"
 		# 
 		# label3
 		# 
-		self._label3.Location = System.Drawing.Point(202, 199)
+		self._label3.Location = System.Drawing.Point(12, 191)
 		self._label3.Name = "label3"
 		self._label3.Size = System.Drawing.Size(100, 23)
 		self._label3.TabIndex = 17
@@ -206,7 +209,7 @@ class MainForm(Form):
 		# 
 		# label4
 		# 
-		self._label4.Location = System.Drawing.Point(246, 323)
+		self._label4.Location = System.Drawing.Point(105, 202)
 		self._label4.Name = "label4"
 		self._label4.Size = System.Drawing.Size(100, 23)
 		self._label4.TabIndex = 18
@@ -214,15 +217,34 @@ class MainForm(Form):
 		# 
 		# label5
 		# 
-		self._label5.Location = System.Drawing.Point(145, 354)
+		self._label5.Location = System.Drawing.Point(105, 223)
 		self._label5.Name = "label5"
 		self._label5.Size = System.Drawing.Size(100, 23)
 		self._label5.TabIndex = 19
 		self._label5.Text = "label5"
+		self._label5.Click += self.Label5Click
+		# 
+		# label6
+		# 
+		self._label6.Location = System.Drawing.Point(12, 13)
+		self._label6.Name = "label6"
+		self._label6.Size = System.Drawing.Size(100, 23)
+		self._label6.TabIndex = 20
+		self._label6.Text = "Shade Designer"
+		# 
+		# checkedListBox1
+		# 
+		self._checkedListBox1.FormattingEnabled = True
+		self._checkedListBox1.Location = System.Drawing.Point(123, 267)
+		self._checkedListBox1.Name = "checkedListBox1"
+		self._checkedListBox1.Size = System.Drawing.Size(120, 94)
+		self._checkedListBox1.TabIndex = 21
 		# 
 		# MainForm
 		# 
-		self.ClientSize = System.Drawing.Size(532, 442)
+		self.ClientSize = System.Drawing.Size(282, 373)
+		self.Controls.Add(self._checkedListBox1)
+		self.Controls.Add(self._label6)
 		self.Controls.Add(self._label5)
 		self.Controls.Add(self._label4)
 		self.Controls.Add(self._label3)
@@ -253,3 +275,60 @@ class MainForm(Form):
 
 	def Button2Click(self, sender, e):
 		self._label5.Text = " "
+
+	def Label5Click(self, sender, e):
+		pass
+
+	def Button1Click(self, sender, e):
+		SD = 0
+		SS = 0
+		SC = 0
+		Color = 0
+		Design = 0
+		Size = 0 
+		if self._radioButton1.Checked == True:
+			SD = 0
+			Design = "Regular"
+		elif self._radioButton2.Checked == True:
+			SD = 10
+			Design = "Folding"			
+		elif self._radioButton3.Checked == True:
+			SD = 15
+			Design = "Roman"
+			
+		
+		if self._radioButton4.Checked == True:
+			SS = 0
+			Size = 25
+		elif self._radioButton5.Checked == True:
+			SS = 2
+			Size = 27
+		elif self._radioButton6.Checked == True:
+			SS = 4
+			Size = 32
+		elif self._radioButton7.Checked == True:
+			SS = 6
+			Size = 40
+		else:
+			SD = 0
+			SS = 0 
+			SC = 0
+	
+		if self._radioButton8.Checked == True:
+			SC = 5
+			Color = "Natural"
+		elif self._radioButton9.Checked == True:
+			SC = 0
+			Color = "Blue"
+		elif self._radioButton10.Checked == True:
+			SC = 0
+			Color = "Teal"
+		elif self._radioButton11.Checked == True:
+			SC = 0
+			Color = "Red" 
+		elif self._radioButton12.Checked == True:
+			SC = 0
+			Color = "Green"
+			
+		Cost = SC + SD + SS
+		self._label5.Text = str(Cost)
