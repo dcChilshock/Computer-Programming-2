@@ -9,9 +9,6 @@ class MainForm(Form):
 		self.InitializeComponent()
 	
 	def InitializeComponent(self):
-		self._radioButton1 = System.Windows.Forms.RadioButton()
-		self._radioButton2 = System.Windows.Forms.RadioButton()
-		self._radioButton3 = System.Windows.Forms.RadioButton()
 		self._radioButton4 = System.Windows.Forms.RadioButton()
 		self._radioButton5 = System.Windows.Forms.RadioButton()
 		self._radioButton6 = System.Windows.Forms.RadioButton()
@@ -30,38 +27,9 @@ class MainForm(Form):
 		self._label4 = System.Windows.Forms.Label()
 		self._label5 = System.Windows.Forms.Label()
 		self._label6 = System.Windows.Forms.Label()
-		self._checkedListBox1 = System.Windows.Forms.CheckedListBox()
+		self._checkBox1 = System.Windows.Forms.CheckBox()
+		self._checkBox2 = System.Windows.Forms.CheckBox()
 		self.SuspendLayout()
-		# 
-		# radioButton1
-		# 
-		self._radioButton1.Location = System.Drawing.Point(12, 70)
-		self._radioButton1.Name = "radioButton1"
-		self._radioButton1.Size = System.Drawing.Size(104, 24)
-		self._radioButton1.TabIndex = 0
-		self._radioButton1.TabStop = True
-		self._radioButton1.Text = "Regular"
-		self._radioButton1.UseVisualStyleBackColor = True
-		# 
-		# radioButton2
-		# 
-		self._radioButton2.Location = System.Drawing.Point(12, 100)
-		self._radioButton2.Name = "radioButton2"
-		self._radioButton2.Size = System.Drawing.Size(104, 24)
-		self._radioButton2.TabIndex = 1
-		self._radioButton2.TabStop = True
-		self._radioButton2.Text = "Folding "
-		self._radioButton2.UseVisualStyleBackColor = True
-		# 
-		# radioButton3
-		# 
-		self._radioButton3.Location = System.Drawing.Point(12, 130)
-		self._radioButton3.Name = "radioButton3"
-		self._radioButton3.Size = System.Drawing.Size(104, 24)
-		self._radioButton3.TabIndex = 2
-		self._radioButton3.TabStop = True
-		self._radioButton3.Text = "Roman"
-		self._radioButton3.UseVisualStyleBackColor = True
 		# 
 		# radioButton4
 		# 
@@ -232,18 +200,29 @@ class MainForm(Form):
 		self._label6.TabIndex = 20
 		self._label6.Text = "Shade Designer"
 		# 
-		# checkedListBox1
+		# checkBox1
 		# 
-		self._checkedListBox1.FormattingEnabled = True
-		self._checkedListBox1.Location = System.Drawing.Point(123, 267)
-		self._checkedListBox1.Name = "checkedListBox1"
-		self._checkedListBox1.Size = System.Drawing.Size(120, 94)
-		self._checkedListBox1.TabIndex = 21
+		self._checkBox1.Location = System.Drawing.Point(13, 70)
+		self._checkBox1.Name = "checkBox1"
+		self._checkBox1.Size = System.Drawing.Size(104, 24)
+		self._checkBox1.TabIndex = 21
+		self._checkBox1.Text = "checkBox1"
+		self._checkBox1.UseVisualStyleBackColor = True
+		# 
+		# checkBox2
+		# 
+		self._checkBox2.Location = System.Drawing.Point(13, 100)
+		self._checkBox2.Name = "checkBox2"
+		self._checkBox2.Size = System.Drawing.Size(104, 24)
+		self._checkBox2.TabIndex = 22
+		self._checkBox2.Text = "checkBox2"
+		self._checkBox2.UseVisualStyleBackColor = True
 		# 
 		# MainForm
 		# 
 		self.ClientSize = System.Drawing.Size(282, 373)
-		self.Controls.Add(self._checkedListBox1)
+		self.Controls.Add(self._checkBox2)
+		self.Controls.Add(self._checkBox1)
 		self.Controls.Add(self._label6)
 		self.Controls.Add(self._label5)
 		self.Controls.Add(self._label4)
@@ -262,9 +241,6 @@ class MainForm(Form):
 		self.Controls.Add(self._radioButton6)
 		self.Controls.Add(self._radioButton5)
 		self.Controls.Add(self._radioButton4)
-		self.Controls.Add(self._radioButton3)
-		self.Controls.Add(self._radioButton2)
-		self.Controls.Add(self._radioButton1)
 		self.Name = "MainForm"
 		self.Text = "Pg485shadedesigner"
 		self.ResumeLayout(False)
@@ -286,27 +262,27 @@ class MainForm(Form):
 		Color = 0
 		Design = 0
 		Size = 0 
-		if self._radioButton1.Checked == True:
+		if self._.Checked == True:
 			SD = 0
 			Design = "Regular"
-		elif self._radioButton2.Checked == True:
+		elif self._.Checked == True:
 			SD = 10
 			Design = "Folding"			
-		elif self._radioButton3.Checked == True:
+		elif self._.Checked == True:
 			SD = 15
 			Design = "Roman"
 			
 		
-		if self._radioButton4.Checked == True:
+		if self._.Checked == True:
 			SS = 0
 			Size = 25
-		elif self._radioButton5.Checked == True:
+		elif self._.Checked == True:
 			SS = 2
 			Size = 27
-		elif self._radioButton6.Checked == True:
+		elif self._.Checked == True:
 			SS = 4
 			Size = 32
-		elif self._radioButton7.Checked == True:
+		elif self._.Checked == True:
 			SS = 6
 			Size = 40
 		else:
@@ -314,19 +290,19 @@ class MainForm(Form):
 			SS = 0 
 			SC = 0
 	
-		if self._radioButton8.Checked == True:
+		if self._.Checked == True:
 			SC = 5
 			Color = "Natural"
-		elif self._radioButton9.Checked == True:
+		elif self._.Checked == True:
 			SC = 0
 			Color = "Blue"
-		elif self._radioButton10.Checked == True:
+		elif self._.Checked == True:
 			SC = 0
 			Color = "Teal"
-		elif self._radioButton11.Checked == True:
+		elif self._.Checked == True:
 			SC = 0
 			Color = "Red" 
-		elif self._radioButton12.Checked == True:
+		elif self._.Checked == True:
 			SC = 0
 			Color = "Green"
 			
