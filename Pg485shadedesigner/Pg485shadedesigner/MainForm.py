@@ -9,15 +9,6 @@ class MainForm(Form):
 		self.InitializeComponent()
 	
 	def InitializeComponent(self):
-		self._radioButton4 = System.Windows.Forms.RadioButton()
-		self._radioButton5 = System.Windows.Forms.RadioButton()
-		self._radioButton6 = System.Windows.Forms.RadioButton()
-		self._radioButton7 = System.Windows.Forms.RadioButton()
-		self._radioButton8 = System.Windows.Forms.RadioButton()
-		self._radioButton9 = System.Windows.Forms.RadioButton()
-		self._radioButton10 = System.Windows.Forms.RadioButton()
-		self._radioButton11 = System.Windows.Forms.RadioButton()
-		self._radioButton12 = System.Windows.Forms.RadioButton()
 		self._button1 = System.Windows.Forms.Button()
 		self._button2 = System.Windows.Forms.Button()
 		self._button3 = System.Windows.Forms.Button()
@@ -29,101 +20,22 @@ class MainForm(Form):
 		self._label6 = System.Windows.Forms.Label()
 		self._checkBox1 = System.Windows.Forms.CheckBox()
 		self._checkBox2 = System.Windows.Forms.CheckBox()
+		self._checkBox3 = System.Windows.Forms.CheckBox()
+		self._checkBox4 = System.Windows.Forms.CheckBox()
+		self._checkBox5 = System.Windows.Forms.CheckBox()
+		self._checkBox6 = System.Windows.Forms.CheckBox()
+		self._checkBox7 = System.Windows.Forms.CheckBox()
+		self._checkBox8 = System.Windows.Forms.CheckBox()
+		self._checkBox9 = System.Windows.Forms.CheckBox()
+		self._checkBox10 = System.Windows.Forms.CheckBox()
+		self._checkBox11 = System.Windows.Forms.CheckBox()
+		self._checkBox12 = System.Windows.Forms.CheckBox()
+		self._label7 = System.Windows.Forms.Label()
 		self.SuspendLayout()
-		# 
-		# radioButton4
-		# 
-		self._radioButton4.Location = System.Drawing.Point(105, 70)
-		self._radioButton4.Name = "radioButton4"
-		self._radioButton4.Size = System.Drawing.Size(104, 24)
-		self._radioButton4.TabIndex = 3
-		self._radioButton4.TabStop = True
-		self._radioButton4.Text = "25 inches"
-		self._radioButton4.UseVisualStyleBackColor = True
-		# 
-		# radioButton5
-		# 
-		self._radioButton5.Location = System.Drawing.Point(105, 100)
-		self._radioButton5.Name = "radioButton5"
-		self._radioButton5.Size = System.Drawing.Size(104, 24)
-		self._radioButton5.TabIndex = 4
-		self._radioButton5.TabStop = True
-		self._radioButton5.Text = "27 inches"
-		self._radioButton5.UseVisualStyleBackColor = True
-		# 
-		# radioButton6
-		# 
-		self._radioButton6.Location = System.Drawing.Point(105, 131)
-		self._radioButton6.Name = "radioButton6"
-		self._radioButton6.Size = System.Drawing.Size(104, 24)
-		self._radioButton6.TabIndex = 5
-		self._radioButton6.TabStop = True
-		self._radioButton6.Text = "32 inches"
-		self._radioButton6.UseVisualStyleBackColor = True
-		# 
-		# radioButton7
-		# 
-		self._radioButton7.Location = System.Drawing.Point(105, 162)
-		self._radioButton7.Name = "radioButton7"
-		self._radioButton7.Size = System.Drawing.Size(104, 24)
-		self._radioButton7.TabIndex = 6
-		self._radioButton7.TabStop = True
-		self._radioButton7.Text = "40 inches"
-		self._radioButton7.UseVisualStyleBackColor = True
-		# 
-		# radioButton8
-		# 
-		self._radioButton8.Location = System.Drawing.Point(13, 218)
-		self._radioButton8.Name = "radioButton8"
-		self._radioButton8.Size = System.Drawing.Size(104, 24)
-		self._radioButton8.TabIndex = 7
-		self._radioButton8.TabStop = True
-		self._radioButton8.Text = "Natural"
-		self._radioButton8.UseVisualStyleBackColor = True
-		# 
-		# radioButton9
-		# 
-		self._radioButton9.Location = System.Drawing.Point(13, 249)
-		self._radioButton9.Name = "radioButton9"
-		self._radioButton9.Size = System.Drawing.Size(104, 24)
-		self._radioButton9.TabIndex = 8
-		self._radioButton9.TabStop = True
-		self._radioButton9.Text = "Blue "
-		self._radioButton9.UseVisualStyleBackColor = True
-		# 
-		# radioButton10
-		# 
-		self._radioButton10.Location = System.Drawing.Point(8, 279)
-		self._radioButton10.Name = "radioButton10"
-		self._radioButton10.Size = System.Drawing.Size(104, 24)
-		self._radioButton10.TabIndex = 9
-		self._radioButton10.TabStop = True
-		self._radioButton10.Text = "Teal"
-		self._radioButton10.UseVisualStyleBackColor = True
-		# 
-		# radioButton11
-		# 
-		self._radioButton11.Location = System.Drawing.Point(8, 309)
-		self._radioButton11.Name = "radioButton11"
-		self._radioButton11.Size = System.Drawing.Size(104, 24)
-		self._radioButton11.TabIndex = 10
-		self._radioButton11.TabStop = True
-		self._radioButton11.Text = "Red "
-		self._radioButton11.UseVisualStyleBackColor = True
-		# 
-		# radioButton12
-		# 
-		self._radioButton12.Location = System.Drawing.Point(8, 339)
-		self._radioButton12.Name = "radioButton12"
-		self._radioButton12.Size = System.Drawing.Size(104, 24)
-		self._radioButton12.TabIndex = 11
-		self._radioButton12.TabStop = True
-		self._radioButton12.Text = "Green"
-		self._radioButton12.UseVisualStyleBackColor = True
 		# 
 		# button1
 		# 
-		self._button1.Location = System.Drawing.Point(189, 39)
+		self._button1.Location = System.Drawing.Point(199, 44)
 		self._button1.Name = "button1"
 		self._button1.Size = System.Drawing.Size(75, 23)
 		self._button1.TabIndex = 12
@@ -133,7 +45,7 @@ class MainForm(Form):
 		# 
 		# button2
 		# 
-		self._button2.Location = System.Drawing.Point(189, 74)
+		self._button2.Location = System.Drawing.Point(199, 70)
 		self._button2.Name = "button2"
 		self._button2.Size = System.Drawing.Size(75, 23)
 		self._button2.TabIndex = 13
@@ -143,7 +55,7 @@ class MainForm(Form):
 		# 
 		# button3
 		# 
-		self._button3.Location = System.Drawing.Point(189, 103)
+		self._button3.Location = System.Drawing.Point(199, 99)
 		self._button3.Name = "button3"
 		self._button3.Size = System.Drawing.Size(75, 23)
 		self._button3.TabIndex = 14
@@ -161,7 +73,7 @@ class MainForm(Form):
 		# 
 		# label2
 		# 
-		self._label2.Location = System.Drawing.Point(105, 44)
+		self._label2.Location = System.Drawing.Point(8, 197)
 		self._label2.Name = "label2"
 		self._label2.Size = System.Drawing.Size(63, 23)
 		self._label2.TabIndex = 16
@@ -169,15 +81,15 @@ class MainForm(Form):
 		# 
 		# label3
 		# 
-		self._label3.Location = System.Drawing.Point(12, 191)
+		self._label3.Location = System.Drawing.Point(105, 44)
 		self._label3.Name = "label3"
-		self._label3.Size = System.Drawing.Size(100, 23)
+		self._label3.Size = System.Drawing.Size(88, 23)
 		self._label3.TabIndex = 17
 		self._label3.Text = "What color"
 		# 
 		# label4
 		# 
-		self._label4.Location = System.Drawing.Point(105, 202)
+		self._label4.Location = System.Drawing.Point(137, 254)
 		self._label4.Name = "label4"
 		self._label4.Size = System.Drawing.Size(100, 23)
 		self._label4.TabIndex = 18
@@ -185,11 +97,10 @@ class MainForm(Form):
 		# 
 		# label5
 		# 
-		self._label5.Location = System.Drawing.Point(105, 223)
+		self._label5.Location = System.Drawing.Point(137, 277)
 		self._label5.Name = "label5"
 		self._label5.Size = System.Drawing.Size(100, 23)
 		self._label5.TabIndex = 19
-		self._label5.Text = "label5"
 		self._label5.Click += self.Label5Click
 		# 
 		# label6
@@ -204,23 +115,132 @@ class MainForm(Form):
 		# 
 		self._checkBox1.Location = System.Drawing.Point(13, 70)
 		self._checkBox1.Name = "checkBox1"
-		self._checkBox1.Size = System.Drawing.Size(104, 24)
+		self._checkBox1.Size = System.Drawing.Size(83, 24)
 		self._checkBox1.TabIndex = 21
-		self._checkBox1.Text = "checkBox1"
+		self._checkBox1.Text = "Regular"
 		self._checkBox1.UseVisualStyleBackColor = True
 		# 
 		# checkBox2
 		# 
 		self._checkBox2.Location = System.Drawing.Point(13, 100)
 		self._checkBox2.Name = "checkBox2"
-		self._checkBox2.Size = System.Drawing.Size(104, 24)
+		self._checkBox2.Size = System.Drawing.Size(83, 24)
 		self._checkBox2.TabIndex = 22
-		self._checkBox2.Text = "checkBox2"
+		self._checkBox2.Text = "Folding"
 		self._checkBox2.UseVisualStyleBackColor = True
+		# 
+		# checkBox3
+		# 
+		self._checkBox3.Location = System.Drawing.Point(13, 131)
+		self._checkBox3.Name = "checkBox3"
+		self._checkBox3.Size = System.Drawing.Size(104, 24)
+		self._checkBox3.TabIndex = 23
+		self._checkBox3.Text = "Roman"
+		self._checkBox3.UseVisualStyleBackColor = True
+		# 
+		# checkBox4
+		# 
+		self._checkBox4.Location = System.Drawing.Point(8, 223)
+		self._checkBox4.Name = "checkBox4"
+		self._checkBox4.Size = System.Drawing.Size(104, 24)
+		self._checkBox4.TabIndex = 24
+		self._checkBox4.Text = "25"
+		self._checkBox4.UseVisualStyleBackColor = True
+		# 
+		# checkBox5
+		# 
+		self._checkBox5.Location = System.Drawing.Point(8, 253)
+		self._checkBox5.Name = "checkBox5"
+		self._checkBox5.Size = System.Drawing.Size(104, 24)
+		self._checkBox5.TabIndex = 25
+		self._checkBox5.Text = "27"
+		self._checkBox5.UseVisualStyleBackColor = True
+		# 
+		# checkBox6
+		# 
+		self._checkBox6.Location = System.Drawing.Point(8, 283)
+		self._checkBox6.Name = "checkBox6"
+		self._checkBox6.Size = System.Drawing.Size(104, 24)
+		self._checkBox6.TabIndex = 26
+		self._checkBox6.Text = "32"
+		self._checkBox6.UseVisualStyleBackColor = True
+		# 
+		# checkBox7
+		# 
+		self._checkBox7.Location = System.Drawing.Point(8, 313)
+		self._checkBox7.Name = "checkBox7"
+		self._checkBox7.Size = System.Drawing.Size(104, 24)
+		self._checkBox7.TabIndex = 27
+		self._checkBox7.Text = "40"
+		self._checkBox7.UseVisualStyleBackColor = True
+		# 
+		# checkBox8
+		# 
+		self._checkBox8.Location = System.Drawing.Point(101, 72)
+		self._checkBox8.Name = "checkBox8"
+		self._checkBox8.Size = System.Drawing.Size(92, 24)
+		self._checkBox8.TabIndex = 28
+		self._checkBox8.Text = "Natural"
+		self._checkBox8.UseVisualStyleBackColor = True
+		# 
+		# checkBox9
+		# 
+		self._checkBox9.Location = System.Drawing.Point(101, 102)
+		self._checkBox9.Name = "checkBox9"
+		self._checkBox9.Size = System.Drawing.Size(82, 24)
+		self._checkBox9.TabIndex = 29
+		self._checkBox9.Text = "Blue"
+		self._checkBox9.UseVisualStyleBackColor = True
+		# 
+		# checkBox10
+		# 
+		self._checkBox10.Location = System.Drawing.Point(101, 131)
+		self._checkBox10.Name = "checkBox10"
+		self._checkBox10.Size = System.Drawing.Size(92, 24)
+		self._checkBox10.TabIndex = 30
+		self._checkBox10.Text = "Teal"
+		self._checkBox10.UseVisualStyleBackColor = True
+		# 
+		# checkBox11
+		# 
+		self._checkBox11.Location = System.Drawing.Point(101, 161)
+		self._checkBox11.Name = "checkBox11"
+		self._checkBox11.Size = System.Drawing.Size(88, 24)
+		self._checkBox11.TabIndex = 31
+		self._checkBox11.Text = "red"
+		self._checkBox11.UseVisualStyleBackColor = True
+		# 
+		# checkBox12
+		# 
+		self._checkBox12.Location = System.Drawing.Point(101, 186)
+		self._checkBox12.Name = "checkBox12"
+		self._checkBox12.Size = System.Drawing.Size(104, 24)
+		self._checkBox12.TabIndex = 32
+		self._checkBox12.Text = "green"
+		self._checkBox12.UseVisualStyleBackColor = True
+		# 
+		# label7
+		# 
+		self._label7.Location = System.Drawing.Point(101, 9)
+		self._label7.Name = "label7"
+		self._label7.Size = System.Drawing.Size(169, 27)
+		self._label7.TabIndex = 33
+		self._label7.Text = "Select 1 out of each category"
 		# 
 		# MainForm
 		# 
 		self.ClientSize = System.Drawing.Size(282, 373)
+		self.Controls.Add(self._label7)
+		self.Controls.Add(self._checkBox12)
+		self.Controls.Add(self._checkBox11)
+		self.Controls.Add(self._checkBox10)
+		self.Controls.Add(self._checkBox9)
+		self.Controls.Add(self._checkBox8)
+		self.Controls.Add(self._checkBox7)
+		self.Controls.Add(self._checkBox6)
+		self.Controls.Add(self._checkBox5)
+		self.Controls.Add(self._checkBox4)
+		self.Controls.Add(self._checkBox3)
 		self.Controls.Add(self._checkBox2)
 		self.Controls.Add(self._checkBox1)
 		self.Controls.Add(self._label6)
@@ -232,15 +252,6 @@ class MainForm(Form):
 		self.Controls.Add(self._button3)
 		self.Controls.Add(self._button2)
 		self.Controls.Add(self._button1)
-		self.Controls.Add(self._radioButton12)
-		self.Controls.Add(self._radioButton11)
-		self.Controls.Add(self._radioButton10)
-		self.Controls.Add(self._radioButton9)
-		self.Controls.Add(self._radioButton8)
-		self.Controls.Add(self._radioButton7)
-		self.Controls.Add(self._radioButton6)
-		self.Controls.Add(self._radioButton5)
-		self.Controls.Add(self._radioButton4)
 		self.Name = "MainForm"
 		self.Text = "Pg485shadedesigner"
 		self.ResumeLayout(False)
@@ -262,27 +273,27 @@ class MainForm(Form):
 		Color = 0
 		Design = 0
 		Size = 0 
-		if self._.Checked == True:
+		if self._checkBox1.Checked == True:
 			SD = 0
 			Design = "Regular"
-		elif self._.Checked == True:
+		elif self._checkBox2.Checked == True:
 			SD = 10
 			Design = "Folding"			
-		elif self._.Checked == True:
+		elif self._checkBox3.Checked == True:
 			SD = 15
 			Design = "Roman"
 			
 		
-		if self._.Checked == True:
+		if self._checkBox4.Checked == True:
 			SS = 0
 			Size = 25
-		elif self._.Checked == True:
+		elif self._checkBox5.Checked == True:
 			SS = 2
 			Size = 27
-		elif self._.Checked == True:
+		elif self._checkBox6.Checked == True:
 			SS = 4
 			Size = 32
-		elif self._.Checked == True:
+		elif self._checkBox7.Checked == True:
 			SS = 6
 			Size = 40
 		else:
@@ -290,19 +301,19 @@ class MainForm(Form):
 			SS = 0 
 			SC = 0
 	
-		if self._.Checked == True:
+		if self._checkBox8.Checked == True:
 			SC = 5
 			Color = "Natural"
-		elif self._.Checked == True:
+		elif self._checkBox9.Checked == True:
 			SC = 0
 			Color = "Blue"
-		elif self._.Checked == True:
+		elif self._checkBox10.Checked == True:
 			SC = 0
 			Color = "Teal"
-		elif self._.Checked == True:
+		elif self._checkBox11.Checked == True:
 			SC = 0
 			Color = "Red" 
-		elif self._.Checked == True:
+		elif self._checkBox12.Checked == True:
 			SC = 0
 			Color = "Green"
 			
