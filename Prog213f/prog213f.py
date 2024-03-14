@@ -7,15 +7,15 @@ def main():
     elecbills = []
     with open("Langdat/prog213f.dat", 'r') as f:
       for line in f:
-        kwh = int("line")
+        kwh = int(line)
         if kwh != -999:
           bill = Cl213f(kwh)
           elecbills.append(bill)
-    for bill in electbills:
+    for bill in elecbills:
       bill.calc()
       print(bill)
 
-  except Exception as e:
+  except ValueError as e:
     print("error:", e)
 
 
