@@ -18,7 +18,7 @@ def main():
           people.append(p)
         elif num == 3:
           favword == str(f.readline())
-          p = Admin(fn,ln,favword
+          p = Admin(fn,ln,favword)
           people.append(p)
       num = int(f.readline())
     tot = 0.0
