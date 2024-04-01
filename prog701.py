@@ -9,7 +9,7 @@ def main():
         fn = f.readline()
         ln = f.readline()
         if num == 1:
-          gpa = float(f.readline())\
+          gpa = float(f.readline())
           p = Student(fn, ln, gpa)
           people.append(p)
         elif num == 2:
@@ -25,7 +25,7 @@ def main():
     cnt = 0
     totstus = 0
     large = ""
-    sm ="fjglkds;gjnfljgfdlkgnlkdbnldsgjkljgfkjlgdjslkfdjglkghghgdhsg"
+    sm="fjglgjnfljgfdlkgnlkdbnldsgjkljgfkjlgdjslkfdjglkghghgdhsg"
     for person in people:
       if isinstance(person, Student):
         tot += person.gpa
@@ -45,7 +45,8 @@ def main():
     print("Largest favorite admin word:", large)
         
   except Exception as e:
-    print("error:")
+    #print("error:")
+    raise e
 
 
   pass

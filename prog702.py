@@ -18,8 +18,20 @@ def main():
           vehicle.append(p)
         elif num == 3:
           favword == str(f.readline())
-          p = Bus(name,tire,city )
+          p = Bus(name,tire,city)
           vehicle.append(p)
+      num = int(f.readline())
+    tot = 0.0
+    cnt = 0
+    totstus = 0
+    large = ""
+    sm = "fjglkds;gjnfljgfdlkgnlkdbnldsgjgfkjlgdjslkfdjglkghghgdhsg"
+    for vehicle in vehicle:
+      if:
+
+      elif:
+
+      elif:
   except Exception as e:
     print("error:")
 

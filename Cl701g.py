@@ -8,17 +8,17 @@ class Person:
     return self._first + " " + self._last
 
 class Student:
-  def __init__(fn, ln, gpa):
+  def __init__(self, fn, ln, gpa):
     super().__init__(fn, ln)
     self.gpa = gpa
 
 class Teacher:
-  def __init__(fn, ln, numstu):
+  def __init__(self, fn, ln, numstu):
     super().__init__(fn,ln)
     self.numstu = numstu 
 
 class Admin: 
-  def __init__(fn, ln, favword):
+  def __init__(self, fn, ln, favword):
     super().__init__(fn,ln)
     self.favword = favword
 
