@@ -21,17 +21,19 @@ def main():
           p = Bus(name,tire,city)
           vehicle.append(p)
       num = int(f.readline())
-    tot = 0.0
+    mil = 0.0
     cnt = 0
     totstus = 0
     large = ""
     sm = "fjglkds;gjnfljgfdlkgnlkdbnldsgjgfkjlgdjslkfdjglkghghgdhsg"
     for vehicle in vehicle:
-      if:
+      if isinstance(vehicle, Car):
+        tot += vehicle.money
+        cnt += 1
 
-      elif:
+      elif isinstance(vehicle, Truck):
 
-      elif:
+      elif isinstance(vehicle, Bus):
   except Exception as e:
     print("error:")
 
