@@ -11,8 +11,8 @@ def factLoop(n):
   return product
 
 def fact(n):
-  if n == 1: return n # base / ending case
-    return n * fact(n-1) #recursive case
+  if n <= 1: return n # base / ending case
+  return n * fact(n-1) #recursive case
 
 def main():
   num = int(input("Enter a number: "))
