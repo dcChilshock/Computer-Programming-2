@@ -1,0 +1,7 @@
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.MainForm.resources
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.Cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
