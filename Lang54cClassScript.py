@@ -18,9 +18,9 @@ class Prog54c:
 
   def display(self):
     print("The outcomes are.")
-    print("Radius: " + self.radius)
-    print(f"Area: " + self.area)
-    print(f"Circumfrence: " + self.cir)
+    print(f"Radius:{self.radius}")
+    print(f"Area: {self.area:.2f}")
+    print(f"Circumfrence: {self.cir:.2f}")
     
     
   

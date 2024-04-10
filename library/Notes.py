@@ -52,3 +52,6 @@ bool - boolean (either True or false only)
 "getperim() 
 " solutions in sharp develop is basically a gaint class like buttonclick1 buttonclick2, label1, label2, button and on and on 
 #GO TO prog52aClass.py for examples and direct experience with how classes work 
+
+#rindex
+#index for STRING INT 3
