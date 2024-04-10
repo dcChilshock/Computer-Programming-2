@@ -1,0 +1,6 @@
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
