@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog54cConsole", "Prog54cCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FavoriteClubConsole", "FavoriteClubConsole\FavoriteClubConsole.csproj", "{4575BF68-5F91-464C-89D2-E6BF76B65151}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullnamePrintConsole", "FullnamePrintConsole\FullnamePrintConsole.csproj", "{87F92C96-1B5A-41A6-9B8B-7ECBB85E1738}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4575BF68-5F91-464C-89D2-E6BF76B65151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4575BF68-5F91-464C-89D2-E6BF76B65151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4575BF68-5F91-464C-89D2-E6BF76B65151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F92C96-1B5A-41A6-9B8B-7ECBB85E1738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F92C96-1B5A-41A6-9B8B-7ECBB85E1738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F92C96-1B5A-41A6-9B8B-7ECBB85E1738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F92C96-1B5A-41A6-9B8B-7ECBB85E1738}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,5 @@
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\FullnamePrintConsole\bin\Debug\FullnamePrintConsole.exe.config
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\FullnamePrintConsole\bin\Debug\FullnamePrintConsole.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\FullnamePrintConsole\bin\Debug\FullnamePrintConsole.pdb
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\FullnamePrintConsole\obj\Debug\FullnamePrintConsole.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\FullnamePrintConsole\obj\Debug\FullnamePrintConsole.pdb

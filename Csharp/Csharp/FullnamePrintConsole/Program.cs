@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FavoriteClubConsole
+namespace FullnamePrintConsole
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("My favorite club is reading club!");
+            Console.WriteLine("My full name is Nolan Denson Childers");
             Console.ReadKey();
         }
     }
