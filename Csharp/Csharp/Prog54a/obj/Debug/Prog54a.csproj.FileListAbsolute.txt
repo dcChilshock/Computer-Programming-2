@@ -1,0 +1,9 @@
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\bin\Debug\Prog54a.exe.config
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\bin\Debug\Prog54a.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\bin\Debug\Prog54a.pdb
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\obj\Debug\Prog54a.csprojResolveAssemblyReference.cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\obj\Debug\Prog54a.Form1.resources
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\obj\Debug\Prog54a.Properties.Resources.resources
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\obj\Debug\Prog54a.csproj.GenerateResource.Cache
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\obj\Debug\Prog54a.exe
+C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\obj\Debug\Prog54a.pdb
