@@ -34,6 +34,7 @@ class MainForm(Form):
 		self._button1.TabIndex = 0
 		self._button1.Text = "Confrence Options"
 		self._button1.UseVisualStyleBackColor = True
+		self._button1.Click += self.Button1Click
 		# 
 		# button2
 		# 
@@ -192,3 +193,11 @@ Zip:"""
 		self._textBox7.Text = " "
 		self._textBox8.Text = " "
 		self._label4.Text = " "
+
+	def Button1Click(self, sender, e):
+		from Form1 import *
+		form1 = Form1(self)
+		form1.Show()
+		self.Hide()
+		
+		
