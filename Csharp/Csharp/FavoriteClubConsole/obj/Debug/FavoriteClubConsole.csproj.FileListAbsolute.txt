@@ -4,3 +4,6 @@ C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\FavoriteClubC
 C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\FavoriteClubConsole\obj\Debug\FavoriteClubConsole.csprojResolveAssemblyReference.cache
 C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\FavoriteClubConsole\obj\Debug\FavoriteClubConsole.exe
 C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\FavoriteClubConsole\obj\Debug\FavoriteClubConsole.pdb
+C:\Users\densonchil.n\Documents\GitHub\Computer-Programming-2\Csharp\Csharp\FavoriteClubConsole\bin\Debug\FavoriteClubConsole.exe.config
+C:\Users\densonchil.n\Documents\GitHub\Computer-Programming-2\Csharp\Csharp\FavoriteClubConsole\obj\Debug\FavoriteClubConsole.exe
+C:\Users\densonchil.n\Documents\GitHub\Computer-Programming-2\Csharp\Csharp\FavoriteClubConsole\obj\Debug\FavoriteClubConsole.pdb

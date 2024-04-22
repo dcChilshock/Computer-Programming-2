@@ -7,3 +7,6 @@ C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\obj\D
 C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\obj\Debug\Prog54a.csproj.GenerateResource.Cache
 C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\obj\Debug\Prog54a.exe
 C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54a\obj\Debug\Prog54a.pdb
+C:\Users\densonchil.n\Documents\GitHub\Computer-Programming-2\Csharp\Csharp\Prog54a\bin\Debug\Prog54a.exe.config
+C:\Users\densonchil.n\Documents\GitHub\Computer-Programming-2\Csharp\Csharp\Prog54a\obj\Debug\Prog54a.exe
+C:\Users\densonchil.n\Documents\GitHub\Computer-Programming-2\Csharp\Csharp\Prog54a\obj\Debug\Prog54a.pdb

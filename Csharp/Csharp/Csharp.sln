@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullnamePrintConsole", "Ful
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog54a", "Prog54a\Prog54a.csproj", "{84542C2C-FE89-4DF2-8D9B-0CE2D9DB3683}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lp4-1-correct", "Lp4-1-correct\Lp4-1-correct.csproj", "{2D6E374E-2110-42CF-B364-A5CBAD4B3E18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{84542C2C-FE89-4DF2-8D9B-0CE2D9DB3683}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84542C2C-FE89-4DF2-8D9B-0CE2D9DB3683}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84542C2C-FE89-4DF2-8D9B-0CE2D9DB3683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D6E374E-2110-42CF-B364-A5CBAD4B3E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6E374E-2110-42CF-B364-A5CBAD4B3E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6E374E-2110-42CF-B364-A5CBAD4B3E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6E374E-2110-42CF-B364-A5CBAD4B3E18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

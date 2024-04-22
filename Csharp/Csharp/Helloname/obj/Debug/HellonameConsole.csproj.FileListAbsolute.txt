@@ -1,3 +1,6 @@
 C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Helloname\bin\Debug\Helloname.exe.config
 C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Helloname\obj\Debug\Helloname.exe
 C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Helloname\obj\Debug\Helloname.pdb
+C:\Users\densonchil.n\Documents\GitHub\Computer-Programming-2\Csharp\Csharp\Helloname\bin\Debug\Helloname.exe.config
+C:\Users\densonchil.n\Documents\GitHub\Computer-Programming-2\Csharp\Csharp\Helloname\obj\Debug\Helloname.exe
+C:\Users\densonchil.n\Documents\GitHub\Computer-Programming-2\Csharp\Csharp\Helloname\obj\Debug\Helloname.pdb
