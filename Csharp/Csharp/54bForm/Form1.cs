@@ -42,6 +42,9 @@ namespace _54bForm
             int num4 = int.Parse(textBox4.Text);
             int sum = num1 + num2 + num3 + num4;
             double average = sum / 4.00;
+
+            label3.Text = ("The sum of the four numbers are: " + sum);
+            label4.Text = ("The average of the four numbers are: " + average);
         }
     }
 }
