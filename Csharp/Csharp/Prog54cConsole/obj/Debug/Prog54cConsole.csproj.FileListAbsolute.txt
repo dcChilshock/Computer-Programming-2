@@ -3,3 +3,6 @@ C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54cConsol
 C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54cConsole\bin\Debug\Prog54cConsole.pdb
 C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54cConsole\obj\Debug\Prog54cConsole.exe
 C:\Users\densonchil.n\Desktop\Computer-Programming-2\Csharp\Csharp\Prog54cConsole\obj\Debug\Prog54cConsole.pdb
+C:\Users\densonchil.n\Documents\GitHub\Computer-Programming-2\Csharp\Csharp\Prog54cConsole\bin\Debug\Prog54cConsole.exe.config
+C:\Users\densonchil.n\Documents\GitHub\Computer-Programming-2\Csharp\Csharp\Prog54cConsole\obj\Debug\Prog54cConsole.exe
+C:\Users\densonchil.n\Documents\GitHub\Computer-Programming-2\Csharp\Csharp\Prog54cConsole\obj\Debug\Prog54cConsole.pdb
