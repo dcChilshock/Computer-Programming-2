@@ -27,5 +27,16 @@ namespace pg273BookClubPoints
             label4.Text = " ";
             textBox1.Text = " ";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int Books = int.Parse(textBox1.Text);
+            if (Books > 4)
+                 int Points = Books * 5;
+            else if 
+                 Points = 60;
+            label4.Text = string(Points);
+
+        }
     }
 }
