@@ -30,10 +30,11 @@ namespace pg273BookClubPoints
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int Points = 0;
             int Books = int.Parse(textBox1.Text);
             if (Books > 4)
-                 int Points = Books * 5;
-            else if 
+                 Points = (Books * 5);
+            else
                  Points = 60;
             label4.Text = string(Points);
 
