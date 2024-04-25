@@ -37,6 +37,7 @@ namespace pg273BookClubPoints
                  Points = 60;
             label4.Text = string(Points);
 
+
         }
     }
 }
