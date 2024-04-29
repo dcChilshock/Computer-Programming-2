@@ -38,7 +38,7 @@ namespace Pg266LargeSmallForm
                 str = "Value A is greater than Value B";
             else if (num < num2)
                 str = "Value A is lesser than Value B";
-            else if (num = num2)
+            else if (num == num2)
                 str = "Value A is equal to Value B";
             else
                 str = "Error";
