@@ -24,9 +24,14 @@ namespace Pg347sum
 
         private void button1_Click(object sender, EventArgs e)
         {
+            int val = 0;
             string variable = Interaction.InputBox("Enter a positive integer value:", "title");
             MessageBox.Show(variable);
-
+            for (int lcv = 0; lcv <= Int32.Parse(variable); lcv++)
+            {
+                val += lcv;
+            }
+            MessageBox.Show("The sum of numbers 1 through " + variable + " is " + val.ToString());
         }
     }
 }
