@@ -5,7 +5,42 @@
       "ProjectGuid": "1724096a-b645-47a1-a924-228f8d02bd74",
       "DisplayName": "Pg347sum",
       "ColorIndex": 0
+    },
+    "8fb4b314-c5a6-47be-ac97-922b3229fd7d": {
+      "ProjectGuid": "8fb4b314-c5a6-47be-ac97-922b3229fd7d",
+      "DisplayName": "pg273BookClubPoints",
+      "ColorIndex": 1
+    },
+    "8f1447d2-9035-4fb7-bba0-827c37d726f7": {
+      "ProjectGuid": "8f1447d2-9035-4fb7-bba0-827c37d726f7",
+      "DisplayName": "Pg266LargeSmallForm",
+      "ColorIndex": 2
+    },
+    "b5add496-e0d7-4c2a-a01a-d558ce1ee745": {
+      "ProjectGuid": "b5add496-e0d7-4c2a-a01a-d558ce1ee745",
+      "DisplayName": "Prog122a",
+      "ColorIndex": 3
+    },
+    "081478e3-5c61-4b19-9b66-d0ac64b2d1aa": {
+      "ProjectGuid": "081478e3-5c61-4b19-9b66-d0ac64b2d1aa",
+      "DisplayName": "prog310a",
+      "ColorIndex": 4
+    },
+    "64872209-c1e1-435b-ad84-95431c107ed1": {
+      "ProjectGuid": "64872209-c1e1-435b-ad84-95431c107ed1",
+      "DisplayName": "54bForm",
+      "ColorIndex": 5
+    },
+    "61b9779b-0b03-452d-94ce-e00c677e27b4": {
+      "ProjectGuid": "61b9779b-0b03-452d-94ce-e00c677e27b4",
+      "DisplayName": "Pg273weightandmass",
+      "ColorIndex": 6
+    },
+    "7a03cf09-c77d-4e97-b2bd-59f3ae0a864f": {
+      "ProjectGuid": "7a03cf09-c77d-4e97-b2bd-59f3ae0a864f",
+      "DisplayName": "Pg535CatchMe",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 8
 }
