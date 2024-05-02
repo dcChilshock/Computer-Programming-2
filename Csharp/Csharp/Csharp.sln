@@ -35,9 +35,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog310a", "prog310a\prog31
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg347sum", "Pg347sum\Pg347sum.csproj", "{1724096A-B645-47A1-A924-228F8D02BD74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg273weightandmass", "Pg273weightandmass\Pg273weightandmass.csproj", "{61B9779B-0B03-452D-94CE-E00C677E27B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg535CatchMe", "Pg273weightandmass\Pg535CatchMe.csproj", "{61B9779B-0B03-452D-94CE-E00C677E27B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg535CatchMe", "Pg535CatchMe\Pg535CatchMe.csproj", "{7A03CF09-C77D-4E97-B2BD-59F3AE0A864F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg273weightandmass", "Pg535CatchMe\Pg273weightandmass.csproj", "{7A03CF09-C77D-4E97-B2BD-59F3AE0A864F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
