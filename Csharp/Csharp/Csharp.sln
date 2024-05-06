@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg273weightandmass", "Pg535
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcWithFunctions", "CalcWithFunctions\CalcWithFunctions.csproj", "{C571AD34-9255-49E4-AC2D-0BAEF6099EFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog122d", "Prog122d\Prog122d.csproj", "{97E6A2E3-FD3F-49F8-A64A-286C29571D8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{C571AD34-9255-49E4-AC2D-0BAEF6099EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C571AD34-9255-49E4-AC2D-0BAEF6099EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C571AD34-9255-49E4-AC2D-0BAEF6099EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E6A2E3-FD3F-49F8-A64A-286C29571D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E6A2E3-FD3F-49F8-A64A-286C29571D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E6A2E3-FD3F-49F8-A64A-286C29571D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E6A2E3-FD3F-49F8-A64A-286C29571D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
