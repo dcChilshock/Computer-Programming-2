@@ -40,7 +40,22 @@
       "ProjectGuid": "7a03cf09-c77d-4e97-b2bd-59f3ae0a864f",
       "DisplayName": "Pg273weightandmass",
       "ColorIndex": 7
+    },
+    "c571ad34-9255-49e4-ac2d-0baef6099efd": {
+      "ProjectGuid": "c571ad34-9255-49e4-ac2d-0baef6099efd",
+      "DisplayName": "CalcWithFunctions",
+      "ColorIndex": 8
+    },
+    "97e6a2e3-fd3f-49f8-a64a-286c29571d8a": {
+      "ProjectGuid": "97e6a2e3-fd3f-49f8-a64a-286c29571d8a",
+      "DisplayName": "Prog122d",
+      "ColorIndex": 9
+    },
+    "84542c2c-fe89-4df2-8d9b-0ce2d9db3683": {
+      "ProjectGuid": "84542c2c-fe89-4df2-8d9b-0ce2d9db3683",
+      "DisplayName": "Prog54a",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 11
 }
