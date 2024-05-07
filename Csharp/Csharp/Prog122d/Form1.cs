@@ -20,9 +20,12 @@ namespace Prog122d
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double x = double.Parse(textBox1.Text);
+            double x = 0.0;
             double eq = 0;
             string y = " ";
+            for (int lcv = -12; lcv <= 16; lcv++)
+                eq = (x**6) + (-3*x**50) + (-93*x**4) + (87*x**3) + (1596*x**2) + (-1380*x) - 2800;
+
 
         }
     }
