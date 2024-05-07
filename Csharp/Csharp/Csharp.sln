@@ -39,9 +39,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg535CatchMe", "Pg273weight
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg273weightandmass", "Pg535CatchMe\Pg273weightandmass.csproj", "{7A03CF09-C77D-4E97-B2BD-59F3AE0A864F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcWithFunctions", "CalcWithFunctions\CalcWithFunctions.csproj", "{C571AD34-9255-49E4-AC2D-0BAEF6099EFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcWithFunctions", "CalcWithFunctions\CalcWithFunctions.csproj", "{C571AD34-9255-49E4-AC2D-0BAEF6099EFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog122d", "Prog122d\Prog122d.csproj", "{97E6A2E3-FD3F-49F8-A64A-286C29571D8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prog122d", "Prog122d\Prog122d.csproj", "{97E6A2E3-FD3F-49F8-A64A-286C29571D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog336b", "Prog336b\Prog336b.csproj", "{B0F89E4F-A5AA-4A8E-A5A3-40D46FB40835}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{97E6A2E3-FD3F-49F8-A64A-286C29571D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E6A2E3-FD3F-49F8-A64A-286C29571D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E6A2E3-FD3F-49F8-A64A-286C29571D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F89E4F-A5AA-4A8E-A5A3-40D46FB40835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F89E4F-A5AA-4A8E-A5A3-40D46FB40835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F89E4F-A5AA-4A8E-A5A3-40D46FB40835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F89E4F-A5AA-4A8E-A5A3-40D46FB40835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
