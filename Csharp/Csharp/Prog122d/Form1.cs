@@ -15,7 +15,7 @@ namespace Prog122d
         private void button2_Click(object sender, EventArgs e)
         {
             textBox1.Text = " ";
-            listBox1.Text = " ";
+            listBox1.Items.Clear();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -24,7 +24,12 @@ namespace Prog122d
             double eq = 0;
             string y = " ";
             for (int lcv = -12; lcv <= 16; lcv++)
-                eq = (x**6) + (-3*x**50) + (-93*x**4) + (87*x**3) + (1596*x**2) + (-1380*x) - 2800;
+            {
+                eq = (Math.Pow(x,6) + (-3*Math.Pow(x,50)) + (-93*Math.Pow(x, 4)) + (87*Math.Pow(x, 3)) + (1596*Math.Pow(x,2)) + (-1380*x) - 2800);
+                listBox1.Items.Add(eq);
+            }
+                
+
 
 
         }
