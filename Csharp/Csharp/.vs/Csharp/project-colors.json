@@ -60,7 +60,12 @@
       "ProjectGuid": "b0f89e4f-a5aa-4a8e-a5a3-40d46fb40835",
       "DisplayName": "Prog336b",
       "ColorIndex": 11
+    },
+    "92bdbc10-ccc7-4523-9e99-57e69aa20e06": {
+      "ProjectGuid": "92bdbc10-ccc7-4523-9e99-57e69aa20e06",
+      "DisplayName": "Pg435TicketSalesCs",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 12
+  "NextColorIndex": 13
 }
