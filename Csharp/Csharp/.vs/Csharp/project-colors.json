@@ -65,7 +65,17 @@
       "ProjectGuid": "92bdbc10-ccc7-4523-9e99-57e69aa20e06",
       "DisplayName": "Pg435TicketSalesCs",
       "ColorIndex": 12
+    },
+    "a30e6d77-fb9b-4dc7-bb7a-55387adabc5a": {
+      "ProjectGuid": "a30e6d77-fb9b-4dc7-bb7a-55387adabc5a",
+      "DisplayName": "Prog122bwhile",
+      "ColorIndex": 13
+    },
+    "09063158-45b9-4f47-9cfa-4f56f4903b30": {
+      "ProjectGuid": "09063158-45b9-4f47-9cfa-4f56f4903b30",
+      "DisplayName": "Pg334LoanCalculator",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 15
 }
