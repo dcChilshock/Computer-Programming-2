@@ -49,6 +49,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pg435TicketSalesCs", "Pg435
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog122bwhile", "Prog122bwhile\Prog122bwhile.csproj", "{A30E6D77-FB9B-4DC7-BB7A-55387ADABC5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg334LoanCalculator", "Pg334LoanCalculator\Pg334LoanCalculator.csproj", "{09063158-45B9-4F47-9CFA-4F56F4903B30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{A30E6D77-FB9B-4DC7-BB7A-55387ADABC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A30E6D77-FB9B-4DC7-BB7A-55387ADABC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A30E6D77-FB9B-4DC7-BB7A-55387ADABC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09063158-45B9-4F47-9CFA-4F56F4903B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09063158-45B9-4F47-9CFA-4F56F4903B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09063158-45B9-4F47-9CFA-4F56F4903B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09063158-45B9-4F47-9CFA-4F56F4903B30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
